@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: 'Anybody', sans-serif;
+}
+
+h1 {
+    font-size: 300%;
+    border-left: 5px solid red;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+
+h2 {
+    font-size: 250%;
+    text-align: center;
+}
+
+.target {
+    color: rgb(140, 97, 89);
+    font-size: 90%;
+}
+
+.mission-2022 {
+    display: flex;
+}
+
+.half-width {
+    width: 60%;
+    /* padding-left: 7%; */
+    padding-top: 100px;
+    /* margin-top: 100px; */
+    /* align-items: center; */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.half-width2 {
+    width: 100%;
+    padding-left: 10%;
+    /* margin-right: 100px; */
+    /* margin-top: 100px; */
+    /* align-items: center; */
+    /* margin-left: 25%; */
+}
+
+.half-width2 img {
+    width: 60%;
+}
+
+.explore-button {
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.details {
+    margin-top: 30px;
+}
+
+/* section2 */
+.my-mission {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.year {
+    color: aquamarine;
+}
+
+.mission-goals {
+    display: flex;
+    width: auto;
+
+}
+
+.mission {
+    width: 33%;
+    /* margin: auto; */
+    background-color: aqua;
+    padding-left: 20px;
+    border-radius: 15px;
+
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.mission img {
+    width: 40%;
+}
+
+.vission {
+    width: 33%;
+    /* margin: auto; */
+    background-color: darkgray;
+    padding-left: 20px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vission img {
+    width: 40%;
+}
+
+.goals {
+    width: 33%;
+    /* margin: auto; */
+    background-color: bisque;
+    padding-left: 20px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+.goals img {
+    width: 40%;
+}
+
+/* section three */
+.develop {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.develop img {
+    width: 30%;
+}
+
+.documentation {
+    margin-left: 50px;
+    margin-top: 5%;
+    /* font-size: 200%; */
+    margin-right: 100px;
+}
+
+#doc {
+    font-size: 150%;
+    margin: 0;
+}
+
+.doc-button {
+    text-decoration: none;
+    font-size: 50%;
+    background-color: rgb(228, 116, 36);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#background-img {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: center;
+
+}
+
+.community {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.community img {
+    width: 30%;
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-bottom: 10%;
+}
+
+#global {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    /* background-position: right; */
+    background-position: 1020px 230px;
+    /* background-position-y: bottom; */
+    /* background-position: unset; */
+    /* margin-top: 20px; */
+    /* background-attachment: initial; */
+}
+
+.build-app {
+    display: flex;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: 100px 0px;
+    background-size: 150px;
+}
+
+.build-app img {
+    width: 30%;
+    /* height: 20%; */
+    margin-left: 150px;
+    margin-right: 5%;
+}
+
+#gocorona {
+    margin-top: 200px;
+    font-size: 200%;
+}
+
+.stay-safe {
+    margin-right: 100px;
+}
+
+.app-background {
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: 150px 620px;
+    background-size: 100px;
+    /* margin: 100px; */
+}
+
+.bg2 {
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 260px 420px;
+}
+
+#footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+}
+
+.footer-yr {
+    color: rgb(182, 30, 101);
+    font-style: italic;
+}
+
+h5 {
+    font-size: 300%;
+}
